@@ -1,7 +1,9 @@
 var loadingScreen = document.querySelector(".loading-Screen");
-window.addEventListener('load', function() {
-    loadingScreen.style.display = 'none';
-  })
+if (loadingScreen) {
+    window.addEventListener("load", function () {
+        loadingScreen.style.display = "none";
+    });
+}
 
   document.body.onmousemove = function(e) {
     document.documentElement.style.setProperty (
