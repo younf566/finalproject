@@ -1,9 +1,9 @@
-var loadingScreen = document.querySelector(".loading-Screen");
-if (loadingScreen) {
-    window.addEventListener("load", function () {
+document.addEventListener("DOMContentLoaded", function () {
+    var loadingScreen = document.querySelector(".loading-Screen");
+    if (loadingScreen) {
         loadingScreen.style.display = "none";
-    });
-}
+    }
+});
 
   document.body.onmousemove = function(e) {
     document.documentElement.style.setProperty (
