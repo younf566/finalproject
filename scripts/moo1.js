@@ -2,7 +2,7 @@
 let myFont;
 const ourWord = "MOO";
 let pointArray;
-
+// I am not sure if this is the correct way to link it. I've tried every combination. The nfont is in the projects folder becausze the error told me to put it inside of that
 function preload() {
     myFont = loadFont("ComicSansMS.ttf");
     
